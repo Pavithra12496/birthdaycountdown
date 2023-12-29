@@ -1,0 +1,70 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    
+}
+.container
+{
+    /* margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px; */
+    text-align: center;
+    background-image: url(https://img.freepik.com/premium-vector/happy-birthday-background-with-golden-black-balloons_694085-22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.yutheesh
+{
+    background-image: url(yutheesh.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.kanish
+{
+    background-image: url(kanish.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.countdown
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+.yuthee, .kani
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+    color:rgb(252, 5, 87);    
+    
+}
+.yuthee .time, .kani .time
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+small
+{
+    font-size: 20px;
+}
+h1
+{
+    font-size: 28px;
+}
+span
+{
+    color: rgb(252, 5, 87);
+}
